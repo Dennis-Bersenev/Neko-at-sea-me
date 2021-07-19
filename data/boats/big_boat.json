@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "stats":
+  {
+    "name": "Big boat",
+    "cost": 10,
+    "rank": 40,
+    "player_number": 0,
+    "weapon_damage": 7,
+    "attack_range": 300,
+	"view_range": 400,
+    "health": 200,
+    "maxHealth": 200,
+    "speed": 50,
+    "maxSpeed": 50
+  }
+}

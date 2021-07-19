@@ -1,0 +1,78 @@
+{
+  "id": 3,
+  "spawns": [
+    {
+      "id": 1,
+      "xpos": 200,
+      "ypos": 200
+    }
+  ],
+  "obstacles": [
+    {
+      "id": 1,
+      "xpos": 1200,
+      "ypos": 400,
+      "type": "shark"
+    },
+    {
+      "id": 2,
+      "xpos": 1200,
+      "ypos": 600,
+      "type": "shark"
+    },
+    {
+      "id": 3,
+      "xpos": 1200,
+      "ypos": 800,
+      "type": "shark"
+    },
+    {
+      "id": 4,
+      "xpos": 1200,
+      "ypos": 1000,
+      "type": "shark"
+    },
+    {
+      "id": 1,
+      "xpos": 100,
+      "ypos": 1000,
+      "type": "crate"
+    },
+    {
+      "id": 1,
+      "i_type": 2,
+      "xpos": 800,
+      "ypos": 400,
+      "type": "island"
+    },
+    {
+      "id": 2,
+      "i_type": 2,
+      "xpos": 1000,
+      "ypos": 600,
+      "type": "island"
+    },
+    {
+      "id": 3,
+      "i_type": 2,
+      "xpos": 100,
+      "ypos": 600,
+      "type": "island"
+    },
+    {
+      "id": 4,
+      "i_type": 2,
+      "xpos": 400,
+      "ypos": 800,
+      "type": "island"
+    },
+    {
+      "id": 5,
+      "i_type": 2,
+      "xpos": 800,
+      "ypos": 100,
+      "type": "island"
+    }
+
+  ]
+}

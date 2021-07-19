@@ -1,0 +1,50 @@
+{
+  "id": 1,
+  "spawns": [
+    {
+      "id": 1,
+      "xpos": 200,
+      "ypos": 200
+    }
+  ],
+  "obstacles": [
+    {
+      "id": 1,
+      "xpos": 1200,
+      "ypos": 400,
+      "type": "shark"
+    },
+    {
+      "id": 1,
+      "xpos": 1000,
+      "ypos": 400,
+      "type": "crate"
+    },
+    {
+      "id": 2,
+      "xpos": 500,
+      "ypos": 400,
+      "type": "crate"
+    },
+    {
+      "id": 3,
+      "xpos": 300,
+      "ypos": 800,
+      "type": "crate"
+    },
+    {
+      "id": 3,
+      "xpos": 800,
+      "ypos": 100,
+      "type": "crate"
+    },
+
+    {
+      "id": 1,
+      "i_type": 0,
+      "xpos": 1000,
+      "ypos": 600,
+      "type": "island"
+    }
+  ]
+}

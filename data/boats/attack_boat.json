@@ -1,0 +1,17 @@
+{
+  "id": 3,
+  "stats":
+  {
+    "name": "Attack boat",
+    "cost": 6,
+    "rank": 20,
+    "player_number": 0,
+    "weapon_damage": 10,
+    "attack_range": 400,
+	"view_range": 400,
+    "health": 80,
+    "maxHealth": 80,
+    "speed": 100,
+    "maxSpeed": 100
+  }
+}

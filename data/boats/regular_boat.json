@@ -1,0 +1,17 @@
+{
+  "id": 0,
+  "stats":
+  {
+    "name": "Regular boat",
+    "cost": 4,
+    "rank": 30,
+    "player_number": 0,
+    "weapon_damage": 5,
+    "attack_range": 300,
+	"view_range": 300,
+    "health": 100,
+    "maxHealth": 100,
+    "speed": 100,
+    "maxSpeed": 100
+  }
+}

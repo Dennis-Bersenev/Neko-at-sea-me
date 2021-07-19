@@ -1,0 +1,38 @@
+Main.cpp:
+-Setup 4x4 rendering matrices for motion components.
+-Calls draw with these new matrices
+-Added camera-specific functions
+
+Render.cpp:
+-Added a drawMesh function which will draw motion objects
+ >motion objects are those that come from object files and will be part of the game world
+-Changed signature of draw to account for matrices needed in rendering of moving objects, and to take screen dimensions
+-Deleted the loop for texturedMeshes with a motion component
+-Removed rendering of the arrow (will re-implement that differently)
+
+World.hpp:
+-functions and fields needed for the camera to work
+ >cam field, window_dimension field, some boundry helpers, scrollwheel callback, get_game_pos
+
+World.cpp:
+-implementation of everything above
+-key-callback: c resets the camera **You'll be wanting to use this** 
+-camera-related function in step
+-fixed handle selection/movement to use the gam_pos instead of mouse_mos **All game entites using mouse position should call game_pos and use that instead**
+
+Common.hpp:
+-glm includes for 4x4 matrix operations
+-cursor movement for boats/sharks to check help text also uses game_pos instead of mouse_pos
+
+Common.cpp:
+-changed functions on transform to do the affine 4x4 transformations
+
+Camera.cpp/Camera.hpp:
+-added everything
+
+Boat.cpp:
+-created as a coloured mesh instead of a sprite with the appropriate shaders
+-adjusted scale on creation
+
+Shaders:
+-added boat.vs/fs.glsl for boat/shark/game object rendering

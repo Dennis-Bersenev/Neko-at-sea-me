@@ -1,0 +1,26 @@
+{
+  "id": 1,
+  "spawns": [
+    {
+      "id": 1,
+      "xpos": 200,
+      "ypos": 200
+    }
+  ],
+  "obstacles": [
+    {
+      "id": 1,
+      "xpos": 1200,
+      "ypos": 400,
+      "type": "shark"
+    },
+    {
+      "id": 1,
+      "i_type": 1,
+      "xpos": 800,
+      "ypos": 400,
+      "type": "island"
+    }
+
+  ]
+}

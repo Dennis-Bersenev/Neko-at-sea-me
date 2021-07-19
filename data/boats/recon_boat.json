@@ -1,0 +1,17 @@
+{
+  "id": 2,
+  "stats":
+  {
+    "name": "Recon boat",
+    "cost": 2,
+    "rank": 10,
+    "player_number": 0,
+    "weapon_damage": 0,
+    "attack_range": 0,
+	"view_range": 500,
+    "health": 100,
+    "maxHealth": 100,
+    "speed": 200,
+    "maxSpeed": 150
+  }
+}
